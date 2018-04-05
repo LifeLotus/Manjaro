@@ -1,0 +1,29 @@
+Manjaro Installation
+
+# 1 update mirrors
+sudo pacman-mirrors -i -c China -m rank
+sudo pacman -Syy
+
+# 2 install yaourt
+sudo pacman -S yaourt
+
+# 3 install google-chrome
+yaourt google-chrome
+
+# 4 chinese input method
+sudo pacman -S fcitx fcitx-libpinyin
+# edit ~/.xprofile
+
+# 5 vim editor
+sudo pacman -S vim
+
+# 6 gcc gdb make
+sudo pacman -S gcc gdb make
+
+# 7 boost
+sudo pacman -S boost boost-libs
+
+# 8 python pip
+
+# 9 django
+sudo pip install django
