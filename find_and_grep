@@ -1,0 +1,26 @@
+# 1 find 
+
+find dir -name "filename"
+find dir -type f|d|l|s|p|c|b
+find dir -size +|- 10k|M
+
+find dir -ctime +|- n
+find dir -mtime +|- n
+find dir -atime +|- n
+
+find dir -maxdepth|-mindepth n
+
+find dir -type d -exec ls -l {} \;
+find dir -type d -ok ls -l {} \;
+find dir -type d | xargs ls -l
+
+
+# 2 grep
+grep -r "target" dir
+
+# 3 
+find dir para target
+grep target para dir
+
+
+
