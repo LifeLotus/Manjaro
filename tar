@@ -1,0 +1,22 @@
+# 1 file format
+.gz
+.bz2
+
+# 2 archive
+tar 
+
+# 3 para
+c create
+x 
+v info
+f filename
+z use gzip to compress
+j use bzip2
+
+# 4 compress
+tar para target source
+tar zcvf test.tar.gz ./
+
+# 5 decompress
+tar zxvf test.tar.gz -C ./
+
